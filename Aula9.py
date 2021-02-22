@@ -1,0 +1,1 @@
+print('Python é melhor')
