@@ -65,3 +65,15 @@ r1 = somar(2, 6, 5)
 r2 = somar(86, 6, 5)
 r3 = somar(5)
 print(f'Meus calculos deram {r1}, {r2} e {r3}.')
+
+
+# aula pratica
+def fatorial(num=1):
+    f = 1
+    for c in range(num, 0, -1):
+        f *= c
+    return f
+
+
+n = int(input('Digite um numero: '))
+print(f'O fatorial de {n} é igual a {fatorial(n)}')
