@@ -2,7 +2,7 @@ from PySimpleGUI import PySimpleGUI as sg
 
 
 # Layout
-sg.theme('Dark')
+sg.theme('Reddit')
 layout = [
     [sg.Text('Nome do Livro '), sg.Input(key='Nlivro', size=(20, 1))],
     [sg.Text('Sequencias    '), sg.Input(key='Qseque', size=(20, 1))],
