@@ -20,6 +20,6 @@ while True:
     if eventos == sg.WIN_CLOSED or eventos == 'Sair':
         break
     if eventos == 'Registrar':
-        print('Livro registr')
+        print('Livro registrar')
         print([valores])
         break
