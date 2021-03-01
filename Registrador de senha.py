@@ -30,7 +30,6 @@ class PassGen:
     def gerar_senha(self, valores):
         char_list = 'ABCDEFGHIJKLMNOPQRSTUVabcdefghijklmnopqrstuv1234567890!@#$%*&'
         chars = random.choices(char_list, k=int(valores['total_chars']))
-        new_pass =
         return new_pass
 
 
