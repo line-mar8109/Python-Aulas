@@ -1,5 +1,8 @@
 from random import randint
 from time import sleep
+from PySimpleGUI import PySimpleGUI as sg
+
+sg.theme('Dark')
 arquivo = open("HISTORICOBOOKYEARS.txt", "w")
 lista = list()
 jogos = list()

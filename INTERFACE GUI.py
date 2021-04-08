@@ -9,8 +9,7 @@ layout = [
     [sg.Text('Ano Lido        '), sg.Combo(values=list(range(2026)), key='ano', default_value=2020, size=(5, 1))],
     [sg.Button('Registrar', key='botao', size=(10, 0)), sg.Button('Sair', key='sair', size=(10, 0))]
 ]
-val = 'total_chars'
-quan = int(10)
+
 
 # Janela
 janela = sg.Window('Tela de registro de livros', layout)
