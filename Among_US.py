@@ -1,5 +1,6 @@
 import turtle
 
+# peguei no site ->https://copyassignment.com/draw-among-us-character-with-python-turtle/
 color1 = 'red'
 color2 = 'red'
 color3 = 'skyblue'
