@@ -5,4 +5,3 @@ print(pessoas.values())  # valores
 print(pessoas.items())  # todos dentro do dicionario
 for k, v in pessoas.items():   # no dicionarios usa o items em vez do enumerate
     print(f'{k} = {v}')
-
