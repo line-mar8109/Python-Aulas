@@ -42,9 +42,9 @@ somar(1)
 # escopo de variaveis onde vai existir e onde não vai existir variavel global e local
 def funcao():
     global n2
-    n1 = 4
+    number1 = 4
     n2 = 6
-    print(f'n1 dentro (local) vale {n1}')
+    print(f'n1 dentro (local) vale {number1}')
     print(f'n2 dentro (local) vale {n2}')
 
 
