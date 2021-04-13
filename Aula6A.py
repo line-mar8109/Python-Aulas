@@ -1,6 +1,0 @@
-n = (input('Digite um numero:'))
-tipo = type(n)
-print('O numero {} é do tipo {}'.format(n, tipo))
-print('Ele é numerico?', (n.isnumeric()))
-print('Ele é letra?', (n.isalpha()))
-print('Ele é alfanumerico?', (n.isalnum()))
