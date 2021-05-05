@@ -1,19 +1,19 @@
 from pytube import YouTube
 
-# C:\Userd\aline\Downloads
+ # C:\Users\aline\Videos\Downloader do YouTube
 link = input("Link do video: ")
-path = input("Path aqui: ")
+path = 'C://Users//aline//Videos//DownloaderdoYouTube'
 yt = YouTube(link)
 
 print('*'*29)
-print('titulo: ', yt.title)
+print('Video Title: ', yt.title)
 print('Views: ', yt.views)
-print('Tempo de duração: ', yt.length, 'segundos')
-print('Avaliação: ', yt.rating)
+print('Duration: ', yt.length, 'seconds')
+print('Assessment: ', yt.rating)
 print('*'*29)
 
 ys = yt.streams.get_highest_resolution()
 
-print('Baixando........................')
+print('Baixando....................')
 ys.download(path)
 print('Download completo!!!')
