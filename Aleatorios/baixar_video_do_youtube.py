@@ -23,8 +23,9 @@ elipses = (
 def long_running_function():
     time.sleep(3)
     return
-print('Baixando ', end='')
-long_running_function()
+
 
 yt.streams.get_highest_resolution().download('C://Users//aline//Videos//DownloaderdoYouTube')
+print('Baixando ', end='')
+long_running_function()
 print('Download completo!!!')
